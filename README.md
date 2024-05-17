@@ -18,8 +18,8 @@ This applications is built using CRUD principles. In this project we can:
 3. Database setup
    - Set up a PostgreSQL database named permalist.
    - Execute the queries in queries.sql to create the table and add sample data.
-     # psql -U your-username -d your-database-name -a -f queries.sql
-     Replace your-username and your-database-name with your PostgreSQL username and database name.
+     [psql -U your-username -d your-database-name -a -f queries.sql]
+   - Replace your-username and your-database-name with your PostgreSQL username and database name.
 4. Running the applications
    - npm start
    - Open your browser and visit http://localhost:3000 to use Permalist to do list.
